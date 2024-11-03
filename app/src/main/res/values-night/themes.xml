@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_red_dark</item>
+        <item name="colorPrimaryVariant">@color/deep_red_dark</item>
+        <item name="colorOnPrimary">@color/text_primary_dark</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_red_dark</item>
+        <item name="colorSecondaryVariant">@color/accent_red_dark</item>
+        <item name="colorOnSecondary">@color/text_primary_dark</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnBackground">@color/text_primary_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+
+        <!-- Card and container colors -->
+        <item name="colorSurfaceVariant">@color/card_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+
+        <!-- Component colors -->
+        <item name="colorError">@color/accent_red_dark</item>
+        <item name="colorOnError">@color/text_primary_dark</item>
+        <item name="colorOutline">@color/muted_red_dark</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:textColorHint">@color/text_hint_dark</item>
+    </style>
+</resources>

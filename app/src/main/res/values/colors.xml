@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light theme colors -->
+    <color name="primary_red_light">#8B0000</color>    <!-- Dark red -->
+    <color name="secondary_red_light">#CD5C5C</color>  <!-- Indian red -->
+    <color name="light_red_light">#FFB6B6</color>     <!-- Soft light red -->
+    <color name="deep_red_light">#641E16</color>      <!-- Deep burgundy red -->
+    <color name="pale_red_light">#FFCDD2</color>      <!-- Very light red -->
+    <color name="warm_red_light">#BC8F8F</color>      <!-- Rosy brown -->
+    <color name="accent_red_light">#A52A2A</color>    <!-- Brown red -->
+    <color name="muted_red_light">#D69292</color>     <!-- Muted red -->
+
+    <!-- Dark theme colors -->
+    <color name="primary_red_dark">#3F0000</color>    <!-- Very dark red -->
+    <color name="secondary_red_dark">#4A1F1F</color>  <!-- Dark indian red -->
+    <color name="light_red_dark">#622626</color>      <!-- Dark soft red -->
+    <color name="deep_red_dark">#2A0A0A</color>       <!-- Darker burgundy -->
+    <color name="pale_red_dark">#4D2626</color>       <!-- Dark muted red -->
+    <color name="warm_red_dark">#3D2929</color>       <!-- Dark rosy -->
+    <color name="accent_red_dark">#461111</color>     <!-- Dark brown red -->
+    <color name="muted_red_dark">#382020</color>      <!-- Very dark muted red -->
+
+    <!-- Background colors for dark theme -->
+    <color name="background_dark">#1A0000</color>     <!-- Almost black with red tint -->
+    <color name="surface_dark">#2B0F0F</color>        <!-- Slightly lighter than background -->
+    <color name="card_dark">#331515</color>           <!-- For cards and elevated surfaces -->
+
+    <!-- Text colors for dark theme -->
+    <color name="text_primary_dark">#E6E6E6</color>   <!-- Light text for dark theme -->
+    <color name="text_secondary_dark">#B3B3B3</color> <!-- Secondary text for dark theme -->
+    <color name="text_hint_dark">#808080</color>      <!-- Hint text for dark theme -->
+</resources>

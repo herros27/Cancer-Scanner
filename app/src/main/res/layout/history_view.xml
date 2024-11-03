@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:backgroundTintMode="src_in"
+    style="@style/CardView"
+    card_view:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivContent"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="145dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_bold"
+            android:maxLines="2"
+            android:textSize="16sp"
+            card_view:layout_constraintEnd_toEndOf="@+id/ivContent"
+            card_view:layout_constraintStart_toStartOf="@+id/ivContent"
+            card_view:layout_constraintTop_toBottomOf="@+id/ivContent"
+            tools:text="Category" />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:maxLines="4"
+            android:text="@string/_50"
+            card_view:layout_constraintBottom_toTopOf="@+id/date"
+            card_view:layout_constraintStart_toStartOf="@+id/tvJudul"
+            card_view:layout_constraintTop_toBottomOf="@+id/tvJudul" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="%"
+            card_view:layout_constraintBottom_toBottomOf="@+id/tvPercentage"
+            card_view:layout_constraintStart_toEndOf="@+id/tvPercentage"
+            card_view:layout_constraintTop_toBottomOf="@+id/tvJudul"
+            card_view:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="145dp"
+            android:layout_height="28dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_regular"
+            android:maxLines="4"
+            android:text="2 november 20204"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="@+id/tvPercentage" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="3dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="Delete button"
+            android:focusable="true"
+            android:padding="4dp"
+            android:src="@drawable/ic_delete"
+            card_view:layout_constraintBottom_toTopOf="@+id/date"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintStart_toEndOf="@+id/textView"
+            card_view:layout_constraintTop_toBottomOf="@+id/tvJudul"
+            card_view:layout_constraintVertical_bias="0.615" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
